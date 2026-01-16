@@ -253,14 +253,26 @@ public class Classwork_1 {
 		}
 
 		// 23
+		short error = 404;
+		switch(error) {
+		    case 404:
+		    	System.out.println("Something is not defined");
+		    case 500:
+		    	System.out.println("Error is");
+		    case 200:
+		    	System.out.println("Error is");
+		}
+		
+		// 24
 		byte mark = 4;
 		if (mark < 4) {
-			System.out.println("I'll talk");
+			System.out.println("I'll talk with your parents");
 		} else {
 			System.out.println("Good");
 		}
+		
 
-		// 24
+		// 25
 		byte planet = 4;
 		switch (planet) {
 			case 1:
@@ -279,6 +291,12 @@ public class Classwork_1 {
 				System.out.println("Uranus");
 			case 8:
 				System.out.println("Neptune");
+		}
+		
+		// 27
+		short weatherSpeed = 40;
+		if(weatherSpeed > 40) {
+			System.out.println("weather is < 40km/h");
 		}
 	}
 }
