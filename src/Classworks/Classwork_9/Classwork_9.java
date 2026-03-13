@@ -35,9 +35,9 @@ public class Classwork_9 {
 
 	        // 8 
 	        ArrayList<String> names = new ArrayList<>();
-	        names.add("Ali");
-	        names.add("Veli");
-	        names.add("Murad");
+	        names.add("s1");
+	        names.add("s2");
+	        names.add("s3");
 
 	        for(String name : names){
 	            System.out.println(name);
